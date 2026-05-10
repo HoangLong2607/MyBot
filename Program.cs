@@ -112,4 +112,4 @@ bot.StartReceiving(
 );
 
 Console.WriteLine("Bot đang chạy...");
-Console.ReadLine();
+await Task.Delay(-1);
